@@ -29,7 +29,6 @@ abstract contract ERC20WrapperLocked is Ownable, ERC20Wrapper {
     using EnumerableMap for EnumerableMap.UintToUintMap;
     using SafeERC20 for IERC20;
 
-    error EVC_InvalidAddress();
     error NotAuthorized();
     error ControllerDisabled();
 

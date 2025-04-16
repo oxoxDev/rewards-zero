@@ -18,7 +18,7 @@ contract RewardToken is ERC20WrapperLocked {
     /// @param _receiver Address of the receiver
     /// @param _underlying Address of the underlying ERC20 token
     constructor(address _owner, address _receiver, address _underlying)
-        ERC20WrapperLocked(_owner, _receiver, _underlying, "ZeroLend Reward Token", "rZERO")
+        ERC20WrapperLocked(_owner, _receiver, _underlying, "ZeroLend Reward Token", "ZEROr")
     {}
 
     /// @notice Calculates the share of tokens that can be unlocked based on the lock timestamp
